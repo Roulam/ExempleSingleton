@@ -1,8 +1,10 @@
+//pas d'heritage depuis singleton
+
 public class Singleton {
     private static Singleton instance;
     //Singleton contient une instance de type Singleton
 
-    private Singleton()
+    protected Singleton()
     {
         System.out.println("Initialisation de l'instance");
     }
